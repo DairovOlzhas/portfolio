@@ -1,0 +1,9 @@
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\d.heyoung.b\Desktop\portfolio\Calculator\Calculator\obj\Debug\Calculator.pdb

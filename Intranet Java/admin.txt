@@ -1,0 +1,40 @@
+
+Mon Nov 19 23:55:03 ALMT 2018 Admin added Teacher asdf asdf ASSISTENT
+Tue Nov 27 02:13:24 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 02:16:53 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=1, faculty='FIT', specialization='IS', transcript=olzhas dairov Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 03:01:50 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 03:07:27 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=1, faculty='IFR', specialization='UA', transcript=student student Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 03:09:56 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=1, faculty='asdf', specialization='asdf', transcript=asdf asdf Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 03:41:27 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 03:49:36 ALMT 2018 Admin O_Dairov added Admin Admin{ username = a_asdf}
+Tue Nov 27 03:50:43 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=1, faculty='asldkfj', specialization='asdf', transcript=student student Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 03:51:59 ALMT 2018 Admin O_Dairov added Manager Manager{ username = m_manager}
+Tue Nov 27 03:59:39 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='fac', specialization='spec', transcript=name last Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 04:16:07 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 04:19:21 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='fac', specialization='spec', transcript=name last Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 04:23:58 ALMT 2018 Admin O_Dairov added Manager Manager{ username = m_manager}
+Tue Nov 27 04:25:39 ALMT 2018 Admin O_Dairov added Executor Executor{username = e_exe'donedOrders=0}
+Tue Nov 27 04:27:00 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='stud', specialization='sdut', transcript=student student Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 04:43:02 ALMT 2018 Admin O_Dairov added Student Student{degree=MAGISTRANT, yearOfStudy=2, faculty='stud', specialization='stus', transcript=stud stud Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 11:17:04 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 11:17:34 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='alskj', specialization='alsdkfj', transcript=student student Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 11:17:53 ALMT 2018 Admin O_Dairov added Admin Admin{ username = a_admin}
+Tue Nov 27 11:18:09 ALMT 2018 Admin O_Dairov added Executor Executor{username = e_executor'donedOrders=0}
+Tue Nov 27 12:16:43 ALMT 2018 Admin a_admin added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='alskf'', specialization='alksfjd', transcript=daulet musabaev Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 15:37:54 ALMT 2018 Admin O_Dairov added Teacher Teacher{courses=[], position=TUTOR}
+Tue Nov 27 15:38:46 ALMT 2018 Admin O_Dairov added Student Student{degree=BACHULAR, yearOfStudy=2, faculty='asdf', specialization='asdf', transcript=student student Total GPA:0.0 Credits: 0
+, takenCourses=[], marks={}}
+Tue Nov 27 15:39:01 ALMT 2018 Admin O_Dairov added Admin Admin{ username = a_admin}
+Tue Nov 27 15:39:16 ALMT 2018 Admin O_Dairov added Manager Manager{ username = m_manager}
+Tue Nov 27 15:39:38 ALMT 2018 Admin O_Dairov added Executor Executor{username = e_executor'donedOrders=0}
+Tue Nov 27 17:18:18 ALMT 2018 Admin a_admin added Teacher Teacher{courses=[], position=TUTOR}

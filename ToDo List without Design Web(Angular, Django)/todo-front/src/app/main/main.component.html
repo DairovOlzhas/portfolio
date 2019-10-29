@@ -1,0 +1,138 @@
+<header>
+    <p>TODO LIST</p>
+
+
+    <ng-container *ngIf="!logged">
+
+        <div class="login">
+            <input class="border" type="text" placeholder="username" [(ngModel)]="login" >
+            <input class="border" type="password" placeholder="password" [(ngModel)]="password" >
+            <button class="border" type="button" (click)="auth()" >Login</button>
+        </div>
+
+    </ng-container>
+
+
+
+    <ng-container *ngIf="logged">
+
+        <div class="logout">
+            <button class="border" type="button" (click)="logout()" >Log Out</button>
+        </div>
+
+    </ng-container>
+
+
+</header>
+
+
+
+
+<section>
+
+    <ng-container *ngIf="logged">
+
+        <div class="tls">
+
+            <h1>Task Lists</h1>
+
+            <div class="tl-add" >
+                <input type="text" class="inp border" [(ngModel)]="name">
+                <button type="button" class="btn border" (click)="createTaskList()" >Add</button>
+            </div>
+
+            <div class="tl" *ngFor="let c of tasklists" (click)="getTaskListsTasks(c)">
+
+                <ng-container *ngIf="c.id != tasklist.id">
+                    <span>{{c.name}}</span>
+                </ng-container>
+
+                <ng-container *ngIf="c.id == tasklist.id">
+                    <input type="text" class="inptl" [(ngModel)]="c.name" >
+                    <button type="button" class="btndel border" (click)="deleteTaskList(c)" >Delete</button>
+                    <button type="button" class="btnupd border" (click)="updateTaskList(c)" >Update</button>
+                </ng-container>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="ts">
+
+            <h1>Tasks</h1>
+
+            <ng-container *ngIf="tasklist != null">
+
+                <div class="t" *ngFor="let c of tasks" (click)="getTask(c)" >
+
+                    <ng-container *ngIf="c.id != task.id">
+                        <span>{{c.name}}</span>
+                    </ng-container>
+
+                    <ng-container *ngIf="c.id == task.id">
+                        <input type="text" class="inpt" [(ngModel)]="c.name" >
+                        <button type="button" class="btndel border" (click)="deleteTask(c)" >Delete</button>
+                        <button type="button" class="btnupd border" (click)="updateTask(c)" >Update</button>
+
+                        <div class="task-info">
+                            <span>CREATED AT {{c.created_at}}</span>
+                            <span>DUE ON <input type="date" [(ngModel)]="c.due_on" ></span>
+                            <span>STATUS<input type="text" [(ngModel)]="c.status"></span>
+                        </div>
+                    </ng-container>
+                </div>
+
+            </ng-container>
+
+        </div>
+
+
+
+        <div class="t-d">
+
+            <ng-container *ngIf="tasklist.id != -1">
+
+
+                <h1>Filter</h1>
+                <div class="tl-add" >
+                    <input type="text" class="inp border" [(ngModel)]="searchquery">
+                    <button type="button" class="btn border" (click)="search()" >Search</button>
+                </div>
+                <div class="task-create">
+                    <span><input type="date" class="inp border" [(ngModel)]="maxdate">Max value</span>
+                    <span><input type="date" class="inp border" [(ngModel)]="mindate">Min value</span>
+                    <button type="button" class="btndel border" (click)="filtrate()" >Filtrate</button>
+                    <select [(ngModel)]="orderby" (change)="order()">
+                        <option>None</option>
+                        <option value="name">Ascending name</option>
+                        <option value="-name">Descending name</option>
+                        <option value="created_at">Ascending date</option>
+                        <option value="-created_at">Descending date</option>
+                    </select>
+                </div>
+
+
+
+
+                <div class="task-create">
+                    <h2>Creating new task</h2>
+                    <span><input type="text" placeholder="New Name" [(ngModel)]="newtask.name">NAME</span>
+                    <span><input type="date" [(ngModel)]="newtask.due_on">DUE ON</span>
+                    <span><input type="text" placeholder="status" [(ngModel)]="newtask.status">STATUS</span>
+                    <button class="btn-create border"(click)="createTask()">Create</button>
+                </div>
+            </ng-container>
+
+        </div>
+
+
+    </ng-container>
+
+</section>
+
+
+
+
+
